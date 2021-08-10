@@ -4,11 +4,12 @@
 CLI tool that shows you everything you need to know about the weather.
 First thing to set the local .env variable to your [OpenWeatherMap](https://openweathermap.org/api) API key.
 Then run it with Cargo:
- 
->Cargo run **City** **Country Code** 
+
+``` Cargo run City Country Code ```
 
 Example for the city Haugesund in Norway
-> Cargo run Haugesund NO 
+
+``` Cargo run Haugesund NO ```
 
 This was a small project to learn Rust and how to use API's. I'll update it with better solutions when I get the hang of the Rust language.
 
