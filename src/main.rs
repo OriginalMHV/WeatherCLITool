@@ -114,7 +114,7 @@ fn miles_per_sec_to_kmh(mph_to_kmh: f64) -> f64 {
 
 impl Forecast {
     async fn get(place: (&String,&String)) -> Result<Self,ExitFailure>{
-        let api_key: &str = "80deced90a7a435180074096b455139d"; //Change it to .env later
+        let api_key: &str = ""; //Change it to .env later
 
         let url = format!("https://api.openweathermap.org/data/2.5/weather?q={},{}&appid={}", place.0, place.1, &value/*env::var("API_KEY").unwrap()*/);
 
