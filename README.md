@@ -12,5 +12,12 @@ Example for the city Haugesund in Norway
 This was a small project to learn Rust and how to use API's. I'll update it with better solutions when I get the hang of the Rust language.
 
 
+#### Todo's
+- [X] Get the current weather forecast working with API
+- [X] Able to use CL to get weather and print it out
+- [ ] Get the API key to work with .env <- Current problem
+- [ ] Add options for the input (e.g., future weather forecasts)
+- [ ] Add settings to de-cluster the output (e.g., only temp)
+
 
 
